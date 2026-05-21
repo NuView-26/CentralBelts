@@ -27,11 +27,11 @@ function Belts() {
 
             {/* Background Video with Overlay */}
             <video
-                src="./header.mp4"
+                src="https://github.com/Dwaynewisdom/Portfolio-New/raw/refs/heads/omit/Video/0520(1).mp4"
                 autoPlay
                 loop
                 muted
-                className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-40"
+                className="absolute top-0 left-0 w-full h-full object-cover z-0"
             ></video>
 
 
