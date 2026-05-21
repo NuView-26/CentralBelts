@@ -9,20 +9,6 @@ function Footer() {
     const currentYear = new Date().getFullYear();
 
     useEffect(() => {
-
-        gsap.fromTo(".footer", {
-            opacity: 0,
-            y: 50,
-        }, {
-            opacity: 1,
-            y: 0,
-            duration: 0.4,
-            ease: "power2.out",
-            scrollTrigger: {
-                trigger: ".footer",
-                start: "top 80%",
-            },
-        });
         gsap.fromTo(".logo", {
             rotation: -360,
         }, {

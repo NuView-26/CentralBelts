@@ -88,7 +88,7 @@ function Products() {
                     {products.map((product, index) => (
                         <div 
                             key={index} 
-                            className="product-card group relative flex flex-col justify-between w-full max-w-sm bg-gradient-to-b from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl p-5 transition-all duration-500 hover:border-emerald-500/40 hover:shadow-[0_15px_40px_rgba(16,185,129,0.15)] cursor-pointer"
+                            className="product-card group relative flex flex-col justify-between w-full max-w-sm bg-linear-to-b from-zinc-900 to-zinc-950 border border-zinc-800 rounded-2xl p-5 transition-all duration-500 hover:border-emerald-500/40 hover:shadow-[0_15px_40px_rgba(16,185,129,0.15)] cursor-pointer"
                         >
                             {/* Inner ambient glow background overlay */}
                             <div className="absolute inset-0 bg-linear-to-b from-emerald-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl pointer-events-none" />
